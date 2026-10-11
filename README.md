@@ -54,25 +54,18 @@
 
 ### 📌 Overview & SEO Summary
 
-Welcome to the ultimate curated directory of **B2B contact and company intelligence platforms**, **open-source data enrichment engines**, and **firmographic intelligence tools**. Whether you are looking for enterprise-grade commercial solutions (such as *ZoomInfo*, *Apollo.io*, and *Clearbit*), or self-hostable open-source alternatives (like *FORGE*, *Signal*, and *enrichment-kit*), this list covers category leaders, multi-vendor waterfalls, and privacy-respecting data enrichment.
+Welcome to the ultimate curated directory of **B2B contact and company intelligence platforms**, **open-source data enrichment engines**, **lead generation scrapers**, and **firmographic intelligence tools**. Whether you are looking for enterprise-grade commercial solutions (such as *ZoomInfo*, *Apollo.io*, *HubSpot Clearbit*, and *Cognism*), or self-hostable open-source alternatives (like *Google Maps Scraper*, *OpenOutreach*, *Fire Enrich*, *Signal*, *FORGE*, and *enrichment-kit*), this guide covers category leaders, multi-vendor waterfalls, SMTP email verification, and privacy-respecting sales intelligence.
 
+**Search Keywords & Categories**: `b2b-data`, `company-intelligence`, `data-enrichment`, `lead-generation`, `contact-discovery`, `email-finder`, `sales-intelligence`, `firmographics`, `technographics`, `buying-intent`, `waterfall-enrichment`, `apollo-alternative`, `zoominfo-alternative`, `clearbit-alternative`, `clay-alternative`, `open-source-crm`.
 
-
-**Key Market Context:**
-
-- **FORGE** is the **most complete open-source business data enrichment engine** — enriches business databases using **free data sources and local AI** with **no API keys, no accounts, no credit cards**. Scrapes websites, imports government records (FCC ULS, NPI Registry, SAM.gov), verifies emails via SMTP, and optionally generates AI summaries with local Ollama models. Achieves **~16K records/hr with 4 workers** on the web scraping track .
-
-- **enrichment-kit** is the **open-source Clay.com alternative** — **multi-vendor enrichment waterfalls** that order providers by **effective cost (`price / hit_rate`)** and **short-circuit on success**, paying **~$0.004 per verified contact** vs **~$0.12 for Clay**. For a 10k-lead list, cost lands near **$60 instead of $300** .
-
-- **Signal** is the **open-source AI sales intelligence and outreach automation platform** — watches the web for buying signals (hiring changes, funding news, product launches, review shifts), enriches companies and contacts, drafts personalized outreach, and runs multi-step email sequences from a single chat-first workspace. Runs on **your own Supabase + Anthropic keys** .
-
-- **Batuda** is the **open-source CRM with a built-in research agent** — server-side agent loop with a **mandatory citation ledger**, **five typed result schemas** (CompanyEnrichmentV1, CompetitorScanV1, ContactDiscoveryV1, ProspectScanV1, Freeform), and **90+ intent-level typed MCP tools**. Registry-first contact discovery (Companies House UK, libreBORME Spain) with **pattern-guessed emails gated through DNS MX and verifier confirmation** .
-
-- **opengtm** is the **MIT-licensed GTM engine** — **AI-powered lead discovery, 6-dimension ICP scoring, AEO health checks (29 checks), 4-touch outreach sequences, and Claude Code integration**. Runs locally with **Gemini free tier (1,500 requests/day)** .
-
-- **b2b-lead-intelligence** is the **official Python SDK for B2B Lead Intelligence** — the **open-source Apollo & Proxycurl alternative**. Provides `enrich_company()`, `find_executives()`, and `get_hiring_signals()` with firmographics, tech stack, decision-maker emails, and growth-stage scoring .
-
-- **Apollo.io, ZoomInfo, and Clearbit charge $10K–$50K/year** for data that is **largely scraped from public sources** — **FORGE does the same thing for free** .
+**Key Market Highlights & Cost Savings:**
+- **OpenOutreach & Google Maps Scraper** deliver zero-cost prospecting with automated AI qualification and local business scraping.
+- **FORGE** is the **most complete open-source business data enrichment engine** — enriches business databases using **free data sources and local AI** with **no API keys, no accounts, no credit cards**. Scrapes websites, imports government records (FCC ULS, NPI Registry, SAM.gov), verifies emails via SMTP, and optionally generates AI summaries with local Ollama models (~16K records/hr with 4 workers).
+- **enrichment-kit** is the **open-source Clay.com alternative** — **multi-vendor enrichment waterfalls** that order providers by **effective cost (`price / hit_rate`)** and **short-circuit on success**, paying **~$0.004 per verified contact** vs **~$0.12 for Clay** (~$60 vs $300 for 10k leads).
+- **Signal** is the **open-source AI sales intelligence platform** — tracks buying signals (hiring changes, funding news, product launches), enriches companies/contacts, drafts outreach, and executes multi-step email sequences.
+- **Batuda** is the **open-source CRM with a built-in research agent** — server-side agent loop with a mandatory citation ledger and 90+ MCP tools.
+- **opengtm** is the **MIT-licensed GTM engine** — AI-powered lead discovery, 6-dimension ICP scoring, AEO health checks, and 4-touch outreach sequences with Gemini free tier.
+- **Commercial SaaS vs Open Source**: Commercial tools (ZoomInfo, Apollo.io, Clearbit) charge **$10,000–$50,000/year** for data largely assembled from public registries and web footprints—open-source engines offer self-hosted, sovereign alternatives with zero subscription markup.
 
 
 
@@ -83,15 +76,11 @@ Welcome to the ultimate curated directory of **B2B contact and company intellige
 ## 📑 Table of Contents
 
 - [🏢 SaaS & Commercial Platforms](#-saas--commercial-platforms)
-
 - [🔓 Open-Source GitHub Projects](#-open-source-github-projects)
-
 - [🛠️ How to Contribute](#%EF%B8%8F-how-to-contribute)
-
 - [📊 Star History](#-star-history)
-
 - [🤝 Support & Sponsorship](#-support--sponsorship)
-
+- [❓ Frequently Asked Questions (FAQ)](#-frequently-asked-questions-faq)
 - [⚠️ Disclaimer](#%EF%B8%8F-disclaimer)
 
 
@@ -258,18 +247,24 @@ If you find this B2B contact and company intelligence repository useful, please 
 
 ---
 
+## ❓ Frequently Asked Questions (FAQ)
 
+### What is B2B Contact & Company Intelligence?
+B2B contact and company intelligence refers to datasets, APIs, and automated software platforms that collect, verify, and deliver business information—including corporate email addresses, direct dial phone numbers, firmographic profiles (revenue, headcount, industry), technographics (tools and tech stack), and intent signals (hiring trends, funding rounds).
+
+### How do open-source enrichment tools compare with commercial SaaS like ZoomInfo or Apollo?
+Commercial platforms charge between **$50/month to $50,000+/year** with restrictive export credit systems. Open-source alternatives (such as [FORGE](https://github.com/Nuclear-Marmalade/dataforge), [Signal](https://github.com/jay-sahnan/signal), and [enrichment-kit](https://github.com/masteranime/enrichment-kit)) allow teams to self-host their data pipelines, scrape authoritative public business registries, run local Ollama/Claude/Gemini AI enrichment, and execute multi-vendor waterfalls at a fraction of the cost (~$0.004 per verified contact).
+
+### What is Waterfall Enrichment?
+Waterfall enrichment is an optimization strategy where lead queries flow through multiple data providers ordered by cost efficiency (`price / hit rate`). If the lowest-cost provider finds and verifies the lead, the process halts, preventing costly queries to premium enterprise databases.
+
+---
 
 ## ⚠️ Disclaimer
 
-
-
 - This is a **community-curated** list — not exhaustive and not an endorsement. ℹ️
-
 - **Apollo, ZoomInfo, and Clearbit charge $10K–$50K/year** for data that is **largely scraped from public sources** — **FORGE does the same thing for free** . **enrichment-kit pays ~$0.004 per verified contact** vs **~$0.12 for Clay** by using multi-vendor waterfalls .
-
 - **Signal is designed for single-tenant self-hosting** — **one Supabase project per team**. **Upgrading from pre-Clerk versions is destructive and not reversible** — it **wipes all user-owned data** because old Supabase user UUIDs don't map to Clerk IDs .
-
 - **Open-source enrichment tools are not turnkey** — **FORGE requires PostgreSQL and Python 3.x** . **Signal requires Node 20+, Docker, Supabase CLI, and an Anthropic API key** . **Batuda requires Node 24, pnpm 10, Docker, and Postgres** . **Always validate email verification accuracy, data freshness, and compliance (GDPR, CCPA) with a proof-of-concept** before production deployment. 🔍
 
 

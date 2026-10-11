@@ -108,27 +108,17 @@ The B2B contact and company intelligence market spans **contact data platforms**
 
 
 
-| SaaS / Commercial Platform | Company / Owner | Valuation / Market Cap | Standard Edition Starting Price | Free Tier / Free Trial Limits | Description |
-
+| SaaS / Commercial Platform | Company / Owner | Size (Revenue / Valuation) | Standard Starting Price | Free Tier / Free Trial Limits | Description |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-
-| **[ZoomInfo](https://www.zoominfo.com/)** 🎯 | ZoomInfo Technologies | ~$4 Billion | **Custom enterprise pricing** (typically $15K–$50K+/year) | **Free trial available** | **Market-leading B2B contact data** — **100M+ companies, 500M+ contacts, billions of buying signals**. **GTM.AI CLI is open source under MIT license** — search and lookup commands are free . **Enrichment and agentic research consume bulk data credits**. |
-
-| **[Apollo.io](https://www.apollo.io/)** 🚀 | Apollo.io | ~$1.6 Billion | **$99/month** (Basic, per cited comparison) | **Free tier: limited credits** | **All-in-one sales intelligence and engagement** — **210M+ contacts, 35M+ companies**. **Email finder, sequences, and CRM integrations**. **Solo costs ~$0.02 per contact** . |
-
-| **[Clearbit](https://clearbit.com/)** 🔵 | HubSpot (Acquired) | ~$30 Billion (HubSpot) | **$99/month** (per cited comparison)  | **Free tier: limited lookups** | **Enrichment API** — **Company and person enrichment, logo API, and reveal**. **Standard for filling in missing CRM data**. |
-
-| **[Cognism](https://www.cognism.com/)** 🌍 | Cognism | Private | **Custom enterprise pricing** | **Free trial available** | **International B2B data** — **Phone-verified contacts with global coverage**. **Diamond Data for EMEA compliance**. |
-
-| **[Lusha](https://www.lusha.com/)** 📞 | Lusha | Private | **Custom pricing** | **Free tier: 50 credits/month** | **Direct dial and email finder** — **Browser extension for LinkedIn and Salesforce**. |
-
-| **[LeadIQ](https://leadiq.com/)** ⚡ | LeadIQ | Private | **Custom pricing** | **Free trial available** | **Sales prospecting platform** — **Contact and account data capture from LinkedIn**. |
-
-| **[UpLead](https://www.uplead.com/)** 📊 | UpLead | Private | **$99/month** (Essentials) | **Free trial: 5 credits** | **B2B contact data platform** — **160M+ contacts with email verification**. |
-
-| **[Kaspr](https://www.kaspr.io/)** 🇪🇺 | Kaspr | Private | **Custom pricing** | **Free tier: limited credits** | **European B2B data** — **Phone numbers and emails for French and European professionals**. |
-
-| **[Crunchbase Enterprise](https://www.crunchbase.com/)** 📈 | Crunchbase | Private | **Custom enterprise pricing** | **Free tier: limited searches** | **Company and investment intelligence** — **Private company data, funding rounds, and acquisitions**. |
+| **[Clearbit](https://clearbit.com/)** 🔵 | HubSpot (Acquired) | ~$30B Valuation (HubSpot Market Cap) / ~$3.7B Revenue | **$75/month** (HubSpot Breeze Intelligence Starter add-on) | **No free tier**; standalone free plan discontinued April 30, 2025 (CRM free tools only) | **Enrichment API & Breeze Intelligence** — Company and person enrichment, visitor reveal, and native CRM form autofill. |
+| **[ZoomInfo](https://www.zoominfo.com/)** 🎯 | ZoomInfo Technologies | ~$4B Market Cap / ~$1.2B Annual Revenue | **$14,995/year** (SalesOS Professional tier base contract) | **7-day free trial** with access via sales demo; free GTM.AI CLI search lookup | **Enterprise B2B contact database** — 100M+ companies, 500M+ contacts, buying intent signals, and organizational charts. |
+| **[Apollo.io](https://www.apollo.io/)** 🚀 | Apollo.io | ~$1.6B Valuation / ~$200M Annual Revenue | **$49/user/month** (Basic plan, billed annually) | **Free forever plan**: 10 export credits/month, 2 sequence steps, basic filters | **All-in-one prospecting and sales engagement** — 275M+ contacts, 73M+ companies, built-in sequences, dialer, and Chrome extension. |
+| **[Lusha](https://www.lusha.com/)** 📞 | Lusha | ~$1.5B Valuation / ~$64M Annual Revenue | **$37.45/user/month** (Starter plan, billed annually) | **Free forever plan**: 40 credits/month (1 credit per email, 5 credits per phone number) | **Direct dial and email finder** — Browser extension prospecting across LinkedIn and Salesforce records. |
+| **[Cognism](https://www.cognism.com/)** 🌍 | Cognism | ~$450M Valuation / ~$71M Annual Revenue | **$15,000/year** (Grow plan base annual contract) | **No free tier**; custom live trial demo provided upon sales qualification | **International phone-verified B2B data** — Diamond Data phone verification and GDPR/CCPA-compliant European contact coverage. |
+| **[Crunchbase Enterprise](https://www.crunchbase.com/)** 📈 | Crunchbase | ~$150M+ Valuation / ~$50M Annual Revenue | **$49/user/month** (Crunchbase Pro, billed annually) | **Free forever tier**: basic company search and profile viewing; paid features require trial/subscription | **Company & investment intelligence** — Private venture funding rounds, acquisition intelligence, executive movements, and investor portfolios. |
+| **[LeadIQ](https://leadiq.com/)** ⚡ | LeadIQ | ~$100M–$250M Valuation / ~$35M Annual Revenue | **$15/user/month** (Essential plan, billed annually) | **Free forever plan**: 50 credits/month for 1 user seat | **Sales prospecting & LinkedIn capture** — Automated lead enrichment, contact capture directly into Salesforce/HubSpot. |
+| **[UpLead](https://www.uplead.com/)** 📊 | UpLead | Private / ~$15M Annual Revenue | **$74/month** (Essentials plan, billed annually) | **7-day free trial**: 5 download/verification credits included | **Guaranteed 95% accuracy B2B contacts** — Real-time email verification, firmographic filters, and technographic data. |
+| **[Kaspr](https://www.kaspr.io/)** 🇪🇺 | Kaspr (Cognism Group) | Acquired by Cognism / ~$4.5M Annual Revenue | **€45/user/month** (Starter plan, billed annually) | **Free forever plan**: 15 B2B email credits, 5 phone credits, 5 direct email credits/month | **European contact prospecting tool** — LinkedIn Chrome extension for finding verified mobile numbers and corporate emails. |
 
 
 

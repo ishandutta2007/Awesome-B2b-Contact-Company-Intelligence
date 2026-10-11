@@ -78,9 +78,9 @@ Welcome to the ultimate curated directory of **B2B contact and company intellige
 - [🏢 SaaS & Commercial Platforms](#-saas--commercial-platforms)
 - [🔓 Open-Source GitHub Projects](#-open-source-github-projects)
 - [🛠️ How to Contribute](#%EF%B8%8F-how-to-contribute)
-- [📊 Star History](#-star-history)
 - [🤝 Support & Sponsorship](#-support--sponsorship)
 - [❓ Frequently Asked Questions (FAQ)](#-frequently-asked-questions-faq)
+- [📊 Star History](#-star-history)
 - [⚠️ Disclaimer](#%EF%B8%8F-disclaimer)
 
 
@@ -215,35 +215,13 @@ Contributions are welcome! Follow these steps to submit new B2B intelligence pla
 
 ---
 
-
-
-## 📊 Star History
-
-
-
-[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-B2b-Contact-Company-Intelligence&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-B2b-Contact-Company-Intelligence&type=date&legend=top-left)
-
-
-
----
-
-
-
 ## 🤝 Support & Sponsorship
 
+A heartfelt **thank you** for checking out and supporting this directory! 💖 If you find this curated collection of B2B contact and company intelligence platforms and open-source enrichment software helpful, please consider supporting the project:
 
-
-If you find this B2B contact and company intelligence repository useful, please consider supporting the project:
-
-
-
-- ⭐ **Star** this repository to increase visibility!
-
-- 🔀 **Fork** and share with fellow sales operations leaders, demand generation teams, and open-source advocates.
-
-- ☕ **Sponsor & Buy Me a Coffee**: Support ongoing open-source curation via the [GitHub Sponsor Dashboard](https://github.com/sponsors/ishandutta2007).
-
-
+- ⭐ **Star** this repository on GitHub to increase visibility and help others discover these tools!
+- 🔀 **Fork & Share** with fellow sales operations leaders, growth engineers, demand generation teams, and open-source advocates.
+- ☕ **Buy Me a Coffee**: If you'd like to back ongoing open-source maintenance and research, support the project via the [GitHub Sponsor Dashboard](https://github.com/sponsors/ishandutta2007).
 
 ---
 
@@ -257,6 +235,11 @@ Commercial platforms charge between **$50/month to $50,000+/year** with restrict
 
 ### What is Waterfall Enrichment?
 Waterfall enrichment is an optimization strategy where lead queries flow through multiple data providers ordered by cost efficiency (`price / hit rate`). If the lowest-cost provider finds and verifies the lead, the process halts, preventing costly queries to premium enterprise databases.
+
+---
+
+##  Star History
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-B2b-Contact-Company-Intelligence&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-B2b-Contact-Company-Intelligence&type=date&legend=top-left)
 
 ---
 

@@ -1,0 +1,159 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0f1d" />
+      <stop offset="50%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#1e1b4b" />
+    </linearGradient>
+
+    <linearGradient id="primaryGlow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="50%" stop-color="#818cf8" />
+      <stop offset="100%" stop-color="#c084fc" />
+    </linearGradient>
+
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b" stop-opacity="0.85" />
+      <stop offset="100%" stop-color="#0f172a" stop-opacity="0.9" />
+    </linearGradient>
+
+    <!-- Pulsing animations for dynamic background nodes -->
+    <style>
+      .node-pulse {
+        animation: pulse 3s infinite ease-in-out;
+      }
+      .signal-flow {
+        stroke-dasharray: 8, 8;
+        animation: flow 20s linear infinite;
+      }
+      .glow-orbit {
+        animation: float 6s infinite ease-in-out;
+      }
+      .badge-shimmer {
+        animation: shimmer 4s infinite alternate;
+      }
+      @keyframes pulse {
+        0%, 100% { transform: scale(1); opacity: 0.4; }
+        50% { transform: scale(1.15); opacity: 0.8; }
+      }
+      @keyframes flow {
+        to { stroke-dashoffset: -200; }
+      }
+      @keyframes float {
+        0%, 100% { transform: translateY(0px); }
+        50% { transform: translateY(-8px); }
+      }
+      @keyframes shimmer {
+        0% { opacity: 0.7; }
+        100% { opacity: 1; }
+      }
+      .title-text {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+        font-weight: 800;
+        fill: #ffffff;
+      }
+      .subtitle-text {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+        font-weight: 400;
+        fill: #94a3b8;
+      }
+      .pill-text {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+        font-weight: 600;
+        font-size: 13px;
+        fill: #e2e8f0;
+      }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="420" rx="16" fill="url(#bgGrad)" />
+
+  <!-- Subtle Grid Pattern in background -->
+  <g stroke="#334155" stroke-width="0.5" opacity="0.25">
+    <line x1="0" y1="70" x2="1200" y2="70" />
+    <line x1="0" y1="140" x2="1200" y2="140" />
+    <line x1="0" y1="210" x2="1200" y2="210" />
+    <line x1="0" y1="280" x2="1200" y2="280" />
+    <line x1="0" y1="350" x2="1200" y2="350" />
+    <line x1="150" y1="0" x2="150" y2="420" />
+    <line x1="300" y1="0" x2="300" y2="420" />
+    <line x1="450" y1="0" x2="450" y2="420" />
+    <line x1="600" y1="0" x2="600" y2="420" />
+    <line x1="750" y1="0" x2="750" y2="420" />
+    <line x1="900" y1="0" x2="900" y2="420" />
+    <line x1="1050" y1="0" x2="1050" y2="420" />
+  </g>
+
+  <!-- Dynamic ambient connection lines behind text -->
+  <g class="signal-flow" stroke="#6366f1" stroke-width="1.5" opacity="0.4" fill="none">
+    <path d="M 80,100 Q 250,50 450,110 T 800,90 T 1120,130" />
+    <path d="M 120,340 Q 380,390 650,330 T 950,360 T 1150,310" />
+    <path d="M 980,60 C 1050,160 1120,240 1060,360" />
+  </g>
+
+  <!-- Dynamic Glow Orbs in background -->
+  <circle cx="150" cy="90" r="140" fill="#38bdf8" filter="blur(70px)" opacity="0.12" />
+  <circle cx="1050" cy="180" r="160" fill="#818cf8" filter="blur(80px)" opacity="0.15" />
+  <circle cx="600" cy="360" r="130" fill="#c084fc" filter="blur(70px)" opacity="0.12" />
+
+  <!-- Interactive Decorative Floating Badges/Cards (arranged harmlessly on sides/bottom so title stays clean) -->
+  <g class="glow-orbit" transform="translate(60, 40)">
+    <rect width="180" height="42" rx="21" fill="url(#cardGrad)" stroke="#38bdf8" stroke-width="1.2" opacity="0.85" />
+    <circle cx="24" cy="21" r="7" fill="#38bdf8" class="node-pulse" />
+    <text x="42" y="26" class="pill-text">🔍 500M+ Contacts</text>
+  </g>
+
+  <g class="glow-orbit" transform="translate(960, 45)">
+    <rect width="180" height="42" rx="21" fill="url(#cardGrad)" stroke="#c084fc" stroke-width="1.2" opacity="0.85" />
+    <circle cx="24" cy="21" r="7" fill="#c084fc" class="node-pulse" />
+    <text x="42" y="26" class="pill-text">⚡ 0-Cost Local AI</text>
+  </g>
+
+  <!-- FOREGROUND: Header Brand & Titles (Permanently crisp and unobstructed) -->
+  <g id="foreground-content">
+    <!-- Category Badge -->
+    <g transform="translate(470, 75)">
+      <rect width="260" height="34" rx="17" fill="#1e1b4b" stroke="#6366f1" stroke-width="1.5" />
+      <circle cx="20" cy="17" r="5" fill="#22c55e" />
+      <text x="36" y="22" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="700" fill="#a5b4fc" letter-spacing="1">CURATED DIRECTORY • 2026</text>
+    </g>
+
+    <!-- Main Title -->
+    <text x="600" y="165" text-anchor="middle" class="title-text" font-size="44" letter-spacing="-0.5">
+      Awesome B2B Contact &amp; Company
+    </text>
+    <text x="600" y="220" text-anchor="middle" class="title-text" font-size="44" fill="url(#primaryGlow)" letter-spacing="-0.5">
+      Intelligence Ecosystem 🏢 🔍
+    </text>
+
+    <!-- Subtitle -->
+    <text x="600" y="268" text-anchor="middle" class="subtitle-text" font-size="17">
+      Enterprise SaaS Databases • Open-Source Enrichment Engines • Waterfall Lead Pipelines
+    </text>
+
+    <!-- Bottom Feature Pills Bar (Harmonious in foreground) -->
+    <g transform="translate(160, 315)">
+      <!-- Pill 1 -->
+      <g transform="translate(0, 0)">
+        <rect width="195" height="38" rx="19" fill="#1e293b" stroke="#334155" stroke-width="1" />
+        <text x="97" y="24" text-anchor="middle" class="pill-text">🌐 Firmographics</text>
+      </g>
+      <!-- Pill 2 -->
+      <g transform="translate(225, 0)">
+        <rect width="195" height="38" rx="19" fill="#1e293b" stroke="#334155" stroke-width="1" />
+        <text x="97" y="24" text-anchor="middle" class="pill-text">✉️ SMTP Verification</text>
+      </g>
+      <!-- Pill 3 -->
+      <g transform="translate(450, 0)">
+        <rect width="195" height="38" rx="19" fill="#1e293b" stroke="#334155" stroke-width="1" />
+        <text x="97" y="24" text-anchor="middle" class="pill-text">🎯 Buying Signals</text>
+      </g>
+      <!-- Pill 4 -->
+      <g transform="translate(675, 0)">
+        <rect width="195" height="38" rx="19" fill="#1e293b" stroke="#334155" stroke-width="1" />
+        <text x="97" y="24" text-anchor="middle" class="pill-text">🔓 Open-Source Waterfalls</text>
+      </g>
+    </g>
+  </g>
+</svg>

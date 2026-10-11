@@ -104,7 +104,7 @@ Welcome to the ultimate curated directory of **B2B contact and company intellige
 
 
 
-The B2B contact and company intelligence market spans **contact data platforms** (ZoomInfo, Apollo.io, Cognism) that provide **verified emails, direct dials, and firmographics**, **enrichment APIs** (Clearbit, Lusha, LeadIQ) that **fill in missing data for existing records**, and **sales intelligence platforms** (Crunchbase Enterprise) that combine **company data with funding, hiring, and news signals**. **ZoomInfo and Apollo.io charge $10K–$50K/year** for data largely scraped from public sources . **Clearbit charges $99/month** for its enrichment API .
+> 📊 **Sector Market Size & Structure**: The global B2B sales intelligence and contact data market is estimated at **$4.5B–$5.4B in 2026** (projected to reach **$6.7B–$9.2B+ by 2030** at an 11–14% CAGR). The sector is **moderately to highly fragmented** rather than winner-take-all—no single vendor commands more than ~15% market share, with intense competition among legacy enterprise giants (ZoomInfo, Cognism), modern self-serve prospecting platforms (Apollo.io, Lusha), specialized enrichment APIs, and privacy-first waterfall/open-source solutions driven by industry-wide contact accuracy challenges.
 
 
 
